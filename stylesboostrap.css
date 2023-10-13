@@ -90,3 +90,27 @@ article{
     align-items: center;
 }
 
+button {
+    background-color: rgb(25, 201, 171);
+    color: rgb(58, 80, 141);
+    border-radius: 10em;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid rgb(141, 34, 34);
+    box-shadow: 0 0 0 0 rgb(155, 36, 36);
+  }
+  
+  button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 rgb(32, 20, 53);
+  };
+  
+  button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 rgb(72, 108, 156);
+  };
+
+ 
