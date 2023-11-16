@@ -1,0 +1,24 @@
+.btns {
+    width: 150px; /* Establece el ancho deseado para todos los botones */
+    height: 40px; /* Establece la altura deseada para todos los botones */
+    text-align: center; /* Centra el texto horizontalmente en el botón */
+    display: block; /* Hace que cada botón se muestre en una línea separada */
+    margin: 10px 0; /* Agrega margen superior e inferior para separar los botones */
+  }
+  .btns{
+    margin: auto;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid black;
+    background-color: rgb(129, 183, 228);
+    border-radius: 5px;
+    text-decoration: none;
+   
+  }
+
+  .btns{
+    color: black;
+  }
+  .btns:hover{
+    background-color:gray;
+  }
